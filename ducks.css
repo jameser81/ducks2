@@ -1,0 +1,192 @@
+
+/* =========================
+   GENERAL PAGE
+   ========================= */
+
+body {
+    background-color: #eeeeee;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    color: #333333;
+}
+
+
+/* =========================
+   HEADER
+   ========================= */
+
+header {
+    background-color: rgb(58, 191, 67);
+    color: white;
+    text-align: center;
+    padding: 30px;
+}
+
+header h1 {
+    font-size: 45px;
+    margin: 0;
+}
+
+header p {
+    font-size: 20px;
+}
+
+
+/* =========================
+   NAVIGATION
+   ========================= */
+
+nav {
+    background-color: #333333;
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    padding: 15px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+nav a:hover {
+    color: rgb(191, 58, 182);
+}
+
+
+/* =========================
+   MAIN CONTENT
+   ========================= */
+
+main {
+    max-width: 1100px;
+    margin: auto;
+    padding: 30px;
+}
+
+section {
+    margin-bottom: 60px;
+}
+
+h2 {
+    text-align: center;
+    font-size: 32px;
+}
+
+
+/* =========================
+   DUCK CARDS
+   ========================= */
+
+.duck-container {
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+    flex-wrap: wrap;
+}
+
+.duck-card {
+    background-color: white;
+    width: 280px;
+    padding: 20px;
+    border-radius: 15px;
+
+    /* Green and complementary purple */
+    border: 4px solid rgb(58, 191, 67);
+
+    text-align: center;
+
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+}
+
+.duck-card img {
+    width: 100%;
+    height: 180px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+.duck-card h3 {
+    font-size: 25px;
+}
+
+.price {
+    font-size: 24px;
+    font-weight: bold;
+    color: rgb(58, 191, 67);
+}
+
+
+/* =========================
+   BUTTONS
+   ========================= */
+
+button {
+    background-color: rgb(58, 191, 67);
+    color: white;
+
+    border: none;
+    border-radius: 8px;
+
+    padding: 12px 25px;
+    font-size: 16px;
+
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: rgb(191, 58, 182);
+}
+
+
+/* =========================
+   CONTACT FORM
+   ========================= */
+
+form {
+    background-color: white;
+    max-width: 500px;
+    margin: auto;
+    padding: 25px;
+    border-radius: 15px;
+}
+
+form label {
+    display: block;
+    margin-top: 15px;
+    font-weight: bold;
+}
+
+form input,
+form textarea {
+    width: 100%;
+    box-sizing: border-box;
+
+    padding: 10px;
+    margin-top: 5px;
+
+    border: 2px solid #cccccc;
+    border-radius: 5px;
+}
+
+form textarea {
+    height: 120px;
+    resize: vertical;
+}
+
+form button {
+    margin-top: 20px;
+}
+
+
+/* =========================
+   FOOTER
+   ========================= */
+
+footer {
+    background-color: #333333;
+    color: white;
+    text-align: center;
+    padding: 25px;
+}
